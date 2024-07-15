@@ -18,4 +18,4 @@ RUN apt-get update \
 COPY ["entrypoint.sh", "/entrypoint.sh"]
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["osixia/keepalived"]
+CMD ["takabu/private:docker-keepalived"]
