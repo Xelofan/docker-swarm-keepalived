@@ -1,4 +1,4 @@
-# docker-swarm-keepalived
+# docker-swarm-keepalived (Takabu)
 
 [![Build Workflow](https://github.com/lhns/docker-swarm-keepalived/workflows/build/badge.svg)](https://github.com/lhns/docker-swarm-keepalived/actions?query=workflow%3Abuild)
 [![Docker Stars](https://img.shields.io/docker/stars/lolhens/keepalived-swarm)](https://hub.docker.com/r/lolhens/keepalived-swarm)
