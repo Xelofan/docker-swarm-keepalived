@@ -4,7 +4,7 @@ ENV CLEANIMAGE_VERSION 2.0
 ENV CLEANIMAGE_URL https://raw.githubusercontent.com/lhns/docker-cleanimage/$CLEANIMAGE_VERSION/cleanimage
 
 RUN apt-get update \
- && apt-get install -y ca-certificates curl gnupg iproute2 \
+ && apt-get install -y ca-certificates curl gnupg iproute2 jq \
  && install -m 0755 -d /etc/apt/keyrings \
  && curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg \
  && chmod a+r /etc/apt/keyrings/docker.gpg \
