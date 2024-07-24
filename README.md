@@ -35,7 +35,7 @@ version: '3.8'
 
 services:
   keepalived:
-    image: ghcr.io/lhns/keepalived-swarm
+    image: takabu/public:docker-swarm-keepalived
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     networks:
