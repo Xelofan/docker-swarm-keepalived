@@ -38,4 +38,4 @@ jobs:
         with:
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: takabu/private:docker-swarm-keepalived
+          tags: takabu/public:docker-swarm-keepalived
